@@ -1,5 +1,4 @@
-# Yaniv's Website
-# Welcome To My Page!
+# Yaniv's Website Welcome To My Page!
 ---
 title: Offir Family
 layout: default
@@ -27,21 +26,15 @@ I'm really excited to blog my journey on Github.com.
 # Get in touch
 
 <ul>
-<li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
-</li>
-<li><a href="https://github.com/{{ site.github_username }}">GitHub</a>
-</li>
+  <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+  <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
 </ul>
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>
 <ul>
-<li><a href="https://yanivo1.GitHub.io/HelloWorld/">Hello World Project</a>
-</li>
-<li><a href="https://github.com/thewecanzone/GitHubForDummiesReaders">GitHub for Dummies Repo</a>
-</li>
+  <li><a href="https://yanivo1.GitHub.io/HelloWorld/">Hello World Project</a></li>
+  <li><a href="https://github.com/thewecanzone/GitHubForDummiesReaders">GitHub for Dummies Repo</a></li>
 </ul>
