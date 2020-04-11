@@ -39,3 +39,9 @@ I'm really excited to blog my journey on Github.com.
     </li>
     {% endfor %}
 </ul>
+<ul>
+<li><a href="https://yanivo1.GitHub.io/HelloWorld/">Hello World Project</a>
+</li>
+<li><a href="https://github.com/thewecanzone/GitHubForDummiesReaders">GitHub for Dummies Repo</a>
+</li>
+</ul>
